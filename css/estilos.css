@@ -1,0 +1,391 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    line-height: 100%;
+    color: #666;
+   
+    text-align: center;   
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bannerimg{
+    width: 50%;
+}
+
+img#img_banner{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+
+
+}
+
+div#banner{
+    width: 100%;
+    background-color: #1c287d;
+}
+
+
+
+h6{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+        color: rgb(177, 250, 8);
+        font-size: 1.6rem; 
+        line-height: 1.6em; 
+        margin: 0;
+        text-align: center;
+      
+}
+
+p{
+    text-align: center;
+
+}
+
+h1{
+    color: rgb(197, 194, 194);
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+.imagen-redonda2{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right:10px;
+    line-height: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+    }
+
+
+
+
+#bang{
+    
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 30%;
+}
+#banp{
+    z-index: 100;
+    position: fixed;
+    top: 60%;
+    right: 0;
+}
+#banpp{
+    z-index: 100;
+    position: fixed;
+    top: 30%;
+    right: 0;
+}
+.social-bar{
+    position: fixed; left: 0; top: 10%; font-size: 1.5rem; display: flex; flex-direction: column; align-items: flex-end; z-index: 99;
+}
+.icon{
+    color: white;  text-decoration: none;  padding :.7rem; display: flex; transition: all .5s;
+}
+.icon-arrow-up2{
+    background:#031a33;
+    position: fixed;
+    top: 90%;
+ 
+   z-index: 99;
+}
+.icon-facebook{
+    background: #2E406E;
+}
+.icon-twitter{
+    background: #339DC5;
+}
+.icon-instagram{
+    background: #3F60A5;
+}
+.icon:first-child{
+    border-radius: 0 1rem 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 1rem 0;
+}
+.icon:hover{
+    border-radius: 0 1.5rem 1.5rem 0;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.50);
+}
+nav{width: 100%; position: fixed;z-index: 1; left : 20%; top: 1% }
+
+ul{ width: fit-content; margin: auto; list-style: none;}
+
+ul  li{float: left; margin-right: 30px;}
+
+ul li a{color:black; text-decoration: none;}
+
+ul li a:hover{background-color:#EEADAD; border-radius: 1rem 1rem 1rem 1rem; box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.50);}
+
+.parallax12{
+    background:url(../img/bitcoin2.jpg);
+    min-height: 100%;
+}
+
+.parallax1{
+    background:url(../img/Criptomoneda.jpg);
+    min-height: 100%;
+}
+
+.parallax2{
+    background:url(../img/ethereum.png);
+    min-height: 100%;
+}
+
+.parallax3{
+    background:url(../img/tether.jpg);
+    min-height: 100%;
+}
+.parallax4{
+    background:url(../img/DASH.png);
+    min-height: 100%;
+}
+.parallax5{
+    background: url(../img/litecoin.jpg);
+    min-height: 100%;
+}
+.parallax6{
+    background: url(../img/petro.png);
+    min-height: 100%;
+}
+.parallax7{
+    background: url(../img/moneda.jpg);
+    min-height: 100%;
+}
+
+.parallax11{
+    background: url(../img/EOSG.jpg);
+    min-height: 100%;
+}
+
+.parallax21{
+    background: url(../img/moneda.jpg);
+    min-height: 100%;
+}
+
+.parallax12{
+    background: url(../img/bitcoin2.jpg);
+    min-height: 100%;
+}
+
+.parallax30{
+    background: url(../img/icono-menu.png);
+    min-height: 100%;
+}
+
+.parallax1, .parallax2 , .parallax3 , .parallax4  , .parallax5  , .parallax6, .parallax7,.parallax12,.parallax11,.parallax21,.parallax30
+{
+max-width: 100%;
+position: relative;
+opacity: .80;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.head {
+    position:absolute;
+    color: #fff;
+    font-size: 550%;
+    top: 38%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow:  0 0 10px rgb(231, 230, 230);
+}
+.centrada{
+    color: rgb(252, 245, 245);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+  .derecha{
+      width: 50%;
+      height: 300px;
+      float: left;
+      display: table;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+  .izquierda{
+   
+    width:50%;
+    float: left;
+    display: table;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        }
+        .label-texto{
+          padding-top:15px;
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+          }
+          .text-area{
+              color: rgb(252, 252, 253);
+          }
+          .caja-texto{
+            color: rgb(250, 246, 247);
+            width:250px;
+            border-radius: 5px;
+            height: 25px;
+            padding-left: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+          }
+.head-peq{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
+}
+.dos-colum{
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: left;
+    text-align: center;
+}
+section{
+    overflow: auto;
+    padding: 50px 80px;
+}
+.negro{
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: #000000;
+    color: #f1f1f1; 
+}
+
+#topnav {
+width: 100%;
+text-align: center;
+position: fixed;
+}
+
+
+.topnav a {
+    float: left;
+    color:  rgb(8, 4, 63);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 17px;
+	
+	
+}
+
+
+.topnav a:hover {
+    background-color: rgb(17, 7, 73);
+	color: rgb(16, 8, 61);
+	border-radius: 30px;
+}
+
+
+.topnav a.active {
+    background-color: #092164;
+	color: rgba(9, 31, 129, 0.568);
+	
+}
+
+
+.topnav {
+    background-color: #031a33;;
+    overflow: hidden;
+    position: fixed;
+	
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 17px;
+	
+}
+
+
+.topnav a:hover {
+    background-color: rgb(49, 75, 219);
+	color: black;
+
+}
+
+
+.active {
+    background-color: #093514;
+    color: white;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+
+
+
+
+  
+
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive a.icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+@media screen and (max-width:800px){
+    .head{
+        font-size: 250%;
+    }
+    .head-peq{
+         font-size: 180%;
+    }
+    .dos-colum{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .informacionP{
+        max-width: 100%;
+        width: 1200px;
+    }
+
+    nav{width: 100%; position: fixed;z-index: 1; left: 8%; top: 1% }
+}
